@@ -1,0 +1,22 @@
+1) written in C and C++.
+2) MySQL is quicker than other databases so it can work well even with the large data set.\
+3) default file size limit for a table is 4GB,  to a theoretical limit of 8 million terabytes (TB)
+4) MySQL follows a client /server architecture
+5) MySQL is accused that it doesn't have a good developing and debugging tool compared to paid databases.
+6) MySQL does not support a very large database size as efficiently.
+
+7) It uses many different data types broken into mainly three categories: numeric, date and time, and string types.
+
+CREAT DATABASE database_name;
+
+SHOW DATABASES;
+
+USE database_name;
+
+DROP DATABASE database_name;
+
+CREATE TABLE table_name(column_name value_type NOT NULL,columnTwo type  AUTO_INCREMENT);
+
+DESCRIBE database_name;    ## describe the database like how many column are there row's are there.
+
+
