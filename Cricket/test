@@ -1,0 +1,23 @@
+
+
+
+
+#!/usr/bin/bash
+
+echo "Enter the name of player of that you want to delete the infomation"
+read delname
+
+sed '/`echo $delname`/d' database
+echo "deleted Succesfully"
+flage=1
+
+#cat database
+
+
+
+
+
+
+
+
+#sed '/debian/d' file

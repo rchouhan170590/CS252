@@ -1,0 +1,8 @@
+echo "https://www.cricbuzz.com/profiles/1413/virat-kohli" | wget -O- -i-  | hxnormalize -x | hxselect -i "div.cb-col.cb-col-33" | lynx -stdin -dump > news
+
+Related Articles sed -n '/Related Articles/q;p' news2
+
+sed -n '/Career Information/q;p' news > step32
+
+sed -n '/sweet/,$p' step3 > step4
+delete above all lines
